@@ -31,7 +31,7 @@ user_input = int(input("\nChoose the speed test interval in minutes: "))
 
 # This serves to compare if the user input should be translated into hours or not
 if user_input > 59:
-    print(f"You chose to test every {user_input / 60:.0f} Hours and {user_input % 60} Minutes")
+    print(f"You chose to test every {user_input // 60} Hours and {user_input % 60} Minutes")
 
 else:
     print(f"You chose to test every {user_input} minutes.")
