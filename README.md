@@ -16,7 +16,7 @@ Retro Aesthetics: Features a cool ASCII art banner on startup.
 🛠️ Installation
 1. Clone the repository
 
-git clone https://github.com/YOUR_USERNAME/REPO_NAME.git
+git clone https://github.com/Yel1oww/auto-speedtest
 
 2. Install Dependencies
 This script relies on the speedtest-cli library. Install it using pip:
